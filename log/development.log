@@ -1,0 +1,753 @@
+Started GET "/" for 127.0.0.1 at 2022-11-24 17:56:04 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.4ms | Allocations: 633)
+Completed 200 OK in 19ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 4994)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:44:07 +0300
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms | Allocations: 4216)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/denis/proj/rails/Myapp/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/pages/index
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               layouts/rails/conductor
+               rails/conductor/action_mailbox/inbound_emails/new
+               layouts/application):
+  
+app/controllers/pages_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:46:55 +0300
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1540)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/denis/proj/rails/Myapp/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/pages/index
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               layouts/rails/conductor
+               rails/conductor/action_mailbox/inbound_emails/new
+               layouts/application):
+  
+app/controllers/pages_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:47:53 +0300
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 1556)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/pages#index, application/pages#index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/denis/proj/rails/Myapp/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/application
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index):
+  
+app/controllers/pages_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:48:24 +0300
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1430)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/denis/proj/rails/Myapp/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/home/denis/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/pages/index
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               layouts/rails/conductor
+               rails/conductor/action_mailbox/inbound_emails/new
+               layouts/application):
+  
+app/controllers/pages_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:50:27 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 260.1ms | Allocations: 58196)
+Completed 200 OK in 262ms (Views: 262.1ms | Allocations: 59117)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:50:46 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3051)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 3846)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:58:34 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 377)
+  Rendered layout layouts/application.html.erb (Duration: 61.3ms | Allocations: 13548)
+Completed 200 OK in 83ms (Views: 67.8ms | ActiveRecord: 0.0ms | Allocations: 16815)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 10:59:39 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3040)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3888)
+
+
+  [1m[35m (10.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateQuestions (20221202095326)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "questions" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20221202095326"]]
+  [1m[36mTRANSACTION (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-12-02 09:58:06.118446"], ["updated_at", "2022-12-02 09:58:06.118446"]]
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.6ms)[0m  [1m[32mINSERT INTO "questions" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "First question"], ["body", "Semple"], ["created_at", "2022-12-02 10:05:35.849856"], ["updated_at", "2022-12-02 10:05:35.849856"]]
+  [1m[36mTRANSACTION (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Update (0.4ms)[0m  [1m[33mUPDATE "questions" SET "title" = ?, "updated_at" = ? WHERE "questions"."id" = ?[0m  [["title", "Updeted"], ["updated_at", "2022-12-02 10:06:43.975682"], ["id", 1]]
+  [1m[36mTRANSACTION (70.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 1]]
+  [1m[36mTRANSACTION (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fixed"], ["body", "new body"], ["created_at", "2022-12-02 10:12:29.746261"], ["updated_at", "2022-12-02 10:12:29.746261"]]
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."title" = ? LIMIT ?[0m  [["title", "Fixed"], ["LIMIT", 1]]
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."title" = ?[0m  [["title", "Fixed"]]
+Started GET "/" for 127.0.0.1 at 2022-12-02 13:24:05 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 380)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 13636)
+Completed 200 OK in 45ms (Views: 38.1ms | ActiveRecord: 0.0ms | Allocations: 16903)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:24:11 +0300
+  
+ActionController::RoutingError (uninitialized constant QuestionsController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  QuestionsConroller
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:24:46 +0300
+  
+ActionController::RoutingError (uninitialized constant QuestionsController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  QuestionsConroller
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:25:39 +0300
+  
+ActionController::RoutingError (uninitialized constant QuestionsController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  QuestionsConroller
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:27:34 +0300
+  
+ActionController::RoutingError (uninitialized constant QuestionsController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  QuestionsConroller
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for 127.0.0.1 at 2022-12-02 13:28:52 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3065)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 3838)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:28:59 +0300
+  
+ActionController::RoutingError (uninitialized constant QuestionsController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  QuestionsConroller
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:35:30 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ app/views/questions/index.html.erb:3
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:5
+  Rendered questions/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 7202)
+  Rendered layout layouts/application.html.erb (Duration: 48.3ms | Allocations: 20468)
+Completed 200 OK in 58ms (Views: 49.9ms | ActiveRecord: 1.2ms | Allocations: 24692)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:36:28 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  Rendered questions/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 10906)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 11004)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 11860)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `questions' for #<ActionView::Base:0x00000000009c68>
+
+'.freeze;@output_buffer.append=( questions.inspect );@output_buffer.safe_append='
+                                 ^^^^^^^^^
+Did you mean?  @questions):
+    1: <h1>Questions</h1>
+    2: 
+    3: <%= questions.inspect %>
+    4: 
+    5: <%= @questions.each do |question| %>
+    6: 
+  
+app/views/questions/index.html.erb:3
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:36:48 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ app/views/questions/index.html.erb:3
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:5
+  Rendered questions/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1620)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4535)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.5ms | Allocations: 5359)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:37:16 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 903)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3780)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms | Allocations: 4591)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:37:42 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 912)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3782)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.1ms | Allocations: 4594)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:38:19 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 797)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3663)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms | Allocations: 4489)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:44:13 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1134)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3996)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 4818)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:45:11 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 917)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3785)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms | Allocations: 4597)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:47:58 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 31.2ms | Allocations: 6989)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 7074)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 1.3ms | Allocations: 8872)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `formatted_created_at' for #<ActionView::Base:0x0000000000da20>
+
+  <time datetime="'.freeze;@output_buffer.append=( formatted_created_at);@output_buffer.safe_append='">
+                                                   ^^^^^^^^^^^^^^^^^^^^):
+    3: <% @questions.each do |question| %>
+    4:   <h2><%= question.title %></h2>
+    5: 
+    6:   <time datetime="<%= formatted_created_at%>">
+    7:     <%= question.formatted_created_at %>
+    8:   </time>
+    9:   <p>
+  
+app/views/questions/index.html.erb:6
+app/views/questions/index.html.erb:3
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 13:48:23 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 918)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3825)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 4641)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 14:06:12 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1088)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 4134)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.9ms | Allocations: 4942)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 14:06:31 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2955)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3681)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 14:06:48 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3163)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 3432)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 18:49:24 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2550)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 2782)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 18:49:25 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 776)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3270)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.8ms | Allocations: 3523)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 18:54:34 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2128)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4941)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 6409)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:03:52 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2285)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5283)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.5ms | Allocations: 7072)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:04:13 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 916)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3958)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.2ms | Allocations: 4772)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 19:04:15 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2942)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3664)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 19:04:16 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3166)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.5ms | Allocations: 3435)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:04:20 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3089)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 3333)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 19:06:25 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3118)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 3365)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:06:29 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3074)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.3ms | Allocations: 3318)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:07:10 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3083)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 3327)
+
+
+Started GET "/question/new" for 127.0.0.1 at 2022-12-02 19:07:34 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/question/new"):
+  
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:07:41 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 2505)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 5324)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 2.3ms | Allocations: 6791)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:07:52 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 2446)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5280)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 1.8ms | Allocations: 6746)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:08:35 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1089)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1178)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.5ms | Allocations: 4376)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>New question</h1>
+
+<%= form_with model: @question do |f| %>
+  <%= f.text_field :title, required: true, minlehgth: 2 %>
+  
+):
+1:    <h1>New question</h1>
+2:    
+3:    <%= form_with model: @question do |f| %>
+4:      <%= f.text_field :title, required: true, minlehgth: 2 %>
+5:      
+  
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:08:58 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2504)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 5338)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 1.8ms | Allocations: 6805)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:10:22 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2466)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5282)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 1.6ms | Allocations: 6750)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-02 19:10:27 +0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2805)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 3402)
+
+
+Started GET "/questions" for 127.0.0.1 at 2022-12-02 19:10:28 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3154)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.2ms | Allocations: 3424)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:10:31 +0300
+Processing by QuestionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:3
+  Rendered questions/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3062)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 3306)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:11:23 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 19.4ms | Allocations: 1066)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 1155)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 1.1ms | Allocations: 4259)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>New question</h1>
+
+<%= form_with model: @question do |f| %>
+  <%= f.text_field :title, required: true, minlehgth: 2 %>
+  
+):
+1:    <h1>New question</h1>
+2:    
+3:    <%= form_with model: @question do |f| %>
+4:      <%= f.text_field :title, required: true, minlehgth: 2 %>
+5:      
+  
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 19:11:54 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1061)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.0ms | Allocations: 4312)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>New question</h1>
+
+<%= form_with model: @question do |f| %>
+  <%= f.text_field :title, required: true, minlehgth: 2 %>
+  
+):
+1:    <h1>New question</h1>
+2:    
+3:    <%= form_with model: @question do |f| %>
+4:      <%= f.text_field :title, required: true, minlehgth: 2 %>
+5:      
+  
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/questions/new.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 21:31:26 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1592)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 14509)
+Completed 200 OK in 58ms (Views: 39.5ms | ActiveRecord: 0.7ms | Allocations: 23047)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 21:43:21 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 16.3ms | Allocations: 8737)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 8835)
+Completed 500 Internal Server Error in 20ms (Allocations: 9689)
+
+
+  
+ActionView::Template::Error (undefined method `lable' for #<ActionView::Helpers::FormBuilder:0x00007fb334555138 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x00000000009ce0>, @object=#<Question id: nil, title: nil, body: nil, created_at: nil, updated_at: nil>, @object_name="question", @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( f.lable :title );@output_buffer.safe_append='
+                                    ^^^^^^
+Did you mean?  label):
+    1: <h1>New question</h1>
+    2: 
+    3: <%= form_with model: @question do |f| %>
+    4:   <%= f.lable :title %>
+    5:   <%= f.text_field :title, required: true, minlehgth: 2, placeholder: "Title" %>
+    6:   <% end %>
+  
+app/views/questions/new.html.erb:4
+app/views/questions/new.html.erb:3
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 21:44:06 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 47.8ms | Allocations: 10213)
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 12965)
+Completed 200 OK in 64ms (Views: 62.8ms | Allocations: 13794)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 21:49:05 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1047)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3724)
+Completed 200 OK in 15ms (Views: 13.6ms | Allocations: 4568)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 21:49:08 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 650)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2925)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 3194)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2022-12-02 21:55:29 +0300
+Processing by QuestionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering questions/new.html.erb within layouts/application
+  Rendered questions/new.html.erb within layouts/application (Duration: 30.8ms | Allocations: 8237)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 10962)
+Completed 200 OK in 51ms (Views: 49.0ms | Allocations: 11768)
+
+

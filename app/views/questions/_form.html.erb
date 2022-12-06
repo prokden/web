@@ -1,4 +1,6 @@
-<%= @question.errors.full_messages %>
+<%= @question.errors.full_messages.each do |msg| %>
+
+<% end %>
 
 <%= form_with model: @question do |f| %>
    <div class="mb-3 row">

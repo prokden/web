@@ -18772,3 +18772,10 @@ textarea.form-control-lg {
 .bi-wikipedia::before {
   content: "\f8cc";
 }
+
+.field_with_errors .form-control {
+  border-color: #dc3545;
+}
+.field_with_errors label {
+  color: #dc3545;
+}

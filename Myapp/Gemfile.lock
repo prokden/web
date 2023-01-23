@@ -154,7 +154,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.4)
+    rails-html-sanitizer (1.5.0)
       loofah (~> 2.19, >= 2.19.1)
     railties (7.0.4.1)
       actionpack (= 7.0.4.1)
@@ -181,6 +181,9 @@ GEM
     timeout (0.3.1)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    valid_email2 (4.0.4)
+      activemodel (>= 3.2)
+      mail (~> 2.5)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -209,6 +212,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   tzinfo-data
+  valid_email2 (~> 4.0)
   web-console
 
 RUBY VERSION

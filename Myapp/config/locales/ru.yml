@@ -8,15 +8,14 @@ ru:
       question:
         title: "Заголовок"
         body: "Текст"
-    models:
-      answer: Ответы
   pages:
-      index:
-        title: "Вторая попытка"
-        services_html: "Приветствуем вас"
+    index:
+      title: "Вторая попытка"
+      services_html: "Приветствуем вас"
   menu: 
     home: "Главная"
     questions: Список вопросов
   questions: 
     destroy:
       success: Вопрос удален!
+      

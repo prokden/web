@@ -8,8 +8,6 @@ en:
       question:
         title: "Title"
         body: "Body"
-    models:
-      answer: Answers
   pages:
     index:
       title: "Second try"
@@ -20,3 +18,4 @@ en:
   questions: 
     destroy:
       success: Question deleted!
+      

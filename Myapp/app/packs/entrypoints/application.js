@@ -9,6 +9,7 @@ import '@popperjs/core'
 import 'bootstrap/js/dist/dropdown'
 import 'bootstrap/js/dist/collapse'
 import Turbolinks from "turbolinks"
+import '../scripts/select2'
 
 Rails. start()
 Turbolinks.start()
